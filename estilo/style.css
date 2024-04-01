@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(211, 211, 211, 0.445);
+}
+
+main.content-principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 220px;
+}
+
+section.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    text-align: center;
+    line-height: 20px;
+}
+
+section.content div.card {
+    height: 240px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px black;
+}
+
+img.card-img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.card h2.card-titulo {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;   
+}
+
+div.card p.card-paragrafo {
+    font-size: 14px;
+    font-weight: 600;
+    color: lightslategray;
+}
+
+div.card p.card-preco {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+div.card button.card-saiba {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 7px 20px;
+    margin: 5px 0px 5px 0px;
+    background-color: rgba(0, 119, 255, 0.959);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.card button.card-saiba:hover {
+    background-color: rgba(0, 0, 255, 0.973);
+}
