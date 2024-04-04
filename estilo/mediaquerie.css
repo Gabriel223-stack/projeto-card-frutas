@@ -13,17 +13,18 @@ MOVEL: 320px até 608px;
 
     main.content-principal section.content {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;   
+        padding: 0px 0px 20px 0px;   
     }
 
     section.content div.card {
         height: 250px;
-        width: 110px;
+        width: 200px;
     }
 
     section.content div.card img.card-img {
-        width: 110px;
-        height: 80px;
+        width: 200px;
+        height: 105px;
     }
 
     div.card button.card-saiba {
