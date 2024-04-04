@@ -13,6 +13,8 @@ body {
     background-color: rgba(211, 211, 211, 0.445);
 }
 
+/* CONTEUDO PRINCIPAL - INICIO */
+
 main.content-principal {
     position: absolute;
     top: 50%;
@@ -28,7 +30,13 @@ section.content {
     gap: 42px;
     text-align: center;
     line-height: 20px;
+    transition: width .3s, height .3s;
+    -o-transition-timing-function: ease;
 }
+
+/* CONTEUDO PRINCIPAL - FIM */
+
+/* CONTEUDO PRINCIPAL CARD - INICIO */
 
 section.content div.card {
     height: 240px;
@@ -76,3 +84,5 @@ div.card button.card-saiba {
 div.card button.card-saiba:hover {
     background-color: rgba(0, 0, 255, 0.973);
 }
+
+/* CONTEUDO PRINCIPAL CARD - FIM */

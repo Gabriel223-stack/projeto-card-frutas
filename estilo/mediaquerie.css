@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* TAMANHO DE TELAS 
+
+MOVEL: 320px até 608px;
+
+*/
+
+@media screen and (min-width: 320px) and (max-width: 608px) {
+    main.content-principal {
+        height: 80vh;
+    }
+
+    main.content-principal section.content {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    section.content div.card {
+        height: 250px;
+        width: 110px;
+    }
+
+    section.content div.card img.card-img {
+        width: 110px;
+        height: 80px;
+    }
+
+    div.card button.card-saiba {
+        margin-top: 10px;
+    }
+}
